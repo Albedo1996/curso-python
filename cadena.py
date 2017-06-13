@@ -12,6 +12,8 @@ cuenta = 0
 for carac in fruta:
     if carac == "e":
         cuenta += 1
-print(cuenta)
-print(dato.upper())
+print("caracteres de e: ",cuenta)
+print("Capitalizar:",dato.upper())
+print("Longitud: ",len(dato))
+print("Reemplazando: ", dato.replace("o","0"))
     
